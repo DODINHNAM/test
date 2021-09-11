@@ -1,0 +1,119 @@
+﻿/*Các xử lý định dạng cho provider.html*/
+@import url('basic.css');
+@import url('all.css');
+@import url('images.css');
+@import url('lh.css');
+body a{
+	color:#000;
+	text-decoration: none;
+}
+/*****************HEADER****************/
+
+.header{
+	background: rgba(50, 50, 50, 0.5);
+	color:#fff;
+}
+
+.header .top{
+	padding: 10px 0px;
+}
+
+.header .menu .nav-item .nav-link{
+	color: #fff;
+}
+.focus-news .btn-sp {
+  color: #000;
+  border-color: #000;
+}
+/*****************SLIDER****************/
+
+/*****************FOCUS****************/
+
+
+.focus-news .mybg1{
+	background: rgba(50, 50, 50, 0.3);
+	color:#fff;
+	
+}
+.mycrop2{
+	width: 150px;
+	height: auto;
+}
+.mycrop2 img{
+	width:100%;
+	
+}
+.New a:hover{
+	text-decoration: none;
+}
+/*****************FOOTER****************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	.navbar-toggler{
+		background:rgba(255, 255, 255, 0.6) !important;
+	}
+	.focus-news h2{
+		font-size:20px;
+	}
+	.mycrop2{
+		width:40vw;
+		max-height: 20vh;
+	}
+	.media-body {
+		font-size: 16px; !important;
+	}
+	.media-body h5{
+		font-size: 18px; !important;
+	}
+	.media-body p{
+		display: none;!important;
+	}
+	#sreach{
+		display:none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+	.navbar-toggler{
+		background:rgba(255, 255, 255, 0.6) !important;
+	}
+	.mycrop2{
+		width:40vw;
+		max-height: 20vh;
+	}
+	.media-body h5{
+		font-size: 16px;
+	}
+	#sreach{
+		display:none;
+	}
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-toggler{
+		background:rgba(255, 255, 255, 0.6) !important;
+	}
+	.mycrop2{
+		width:40vw;
+		max-height: 20vh;
+	}
+	#sreach{
+		display:none;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}

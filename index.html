@@ -1,0 +1,568 @@
+﻿<!-- Thiết kế nguyên mẫu cập nhật người sử dụng(Car.html)-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Car</title>
+		<!-- Css-->
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap-grid.css" type="text/css" rel="stylesheet" />
+		
+		<link rel="stylesheet" href="aos.css">
+		<!-- JavaScript-->
+		<script src="" language=""></script>
+		<script language="javascript" src="ckeditor/ckeditor.js"></script>
+		
+		<script src="aos.js"></script>
+		 
+	</head>
+	<body>
+		<script>
+			  AOS.init(); 
+		 </script>
+		<!----- HEADER ----->
+		
+	
+		<div class="header fixed-top">
+			<div class="container-md">
+				<div class="top">
+					<div class="row">
+						<div class="col-md-4"><i class="fas fa-car"></i> HYUNDAI Phạm Văn Đồng</div>
+						<div class="col-md-4"><i class="fas fa-phone"></i> 0971 126 791</div>
+						<div class="col-md-4 ">
+							<div class="row">
+								<input class="ml-auto " id="sreach" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+								<button class="btn btn-outline-success mt-0 ml-3 mr-3"  type="button"><i class="fas fa-search"></i></button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu pr-1">
+					<nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
+						
+							<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item ">
+										<a class="nav-link  pl-0" href="#">Trang chủ</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Danh sách sản phẩm
+										</a>
+										<div class="dropdown-menu text-black" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">HYUNDAI GRAND I10</a>
+											<a class="dropdown-item" href="#">HYUNDAI ACCENT</a>
+											<a class="dropdown-item" href="#">HYUNDAI KONA</a>
+											<a class="dropdown-item" href="#">HYUNDAI ELANTRA</a>
+											<a class="dropdown-item" href="#">HYUNDAI TUCSON</a>
+											<a class="dropdown-item" href="#">HYUNDAI SANTAFE</a>
+											<a class="dropdown-item" href="#">HYUNDAI STAREX</a>
+											<a class="dropdown-item" href="#">HYUNDAI PORTER(H150)</a>
+										</div>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Giới thiệu</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Tin tức</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Bảng giá xe</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Liên hệ</a>
+									</li>
+								</ul>
+								<button class="btn btn-outline-success ml-auto" type="button"><i class="fas fa-shopping-cart"></i></button>
+								<button class="btn btn-outline-success ml-3" type="button"><i class="fas fa-users"></i> Login</button>
+							</div>
+					
+					</nav>
+				</div>
+			</div>	
+		</div>
+	
+		<!--end HEADER-->
+		
+		
+		
+		<!----- SLIDER ----->
+		
+			<div class="slider">
+				
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/banner1.jpg" class="d-block w-100" alt="...">
+								
+							</div>
+							<div class="carousel-item">
+								<img src="images/banner2.png" class="d-block w-100" alt="...">
+								
+							</div>
+							<div class="carousel-item">
+								<img src="images/banner3.png" class="d-block w-100" alt="...">
+								
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			
+		<!--end SLIDER-->
+			
+		
+		
+		<!-----FOCUS NEWS ----->
+		<div class="focus-news mt-5">
+			<div class="hotline-phone-ring-wrap">
+				<div class="hotline-phone-ring">
+					<div class="email-ring-circle"></div>
+					<div class="email-ring-circle-fill"></div>
+					<div class="hotline-phone-ring-img-circle">
+					<a href="#" class="pps-btn-img">
+						<img src="images/email.png" alt="Gọi điện thoại" width="50">
+					</a>
+					</div>
+				</div>
+				<div class="hotline-phone-ring">
+					<div class="hotline-phone-ring-circle"></div>
+					<div class="hotline-phone-ring-circle-fill"></div>
+					<div class="hotline-phone-ring-img-circle">
+					<a href="tel:0971126791" class="pps-btn-img">
+						<img src="images/phone.png" alt="Gọi điện thoại" width="50">
+					</a>
+					</div>
+				</div>
+				<div class="hotline-bar">
+					<a href="tel:0987654321">
+						<span class="text-hotline">0971 126 791</span>
+					</a>
+				</div>
+			</div>
+			
+			<div class="col-md-9 container-md">
+				<div class="row mb-5">
+					<div class="col-md-9">
+						<div class="HOT">
+							<h2 class=" bg-light"><i class="fab fa-hotjar"></i> Sản phẩm hot</h2>
+							<div class="card-deck mt-5" data-aos="fade-top" data-aos-delay="100">
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/i9.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai grand i10 1.2 AT</p>
+										</a>
+										<p class="text-center">402,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5 " type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>	
+								
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/i10.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai grand i10 1.2 MT</p>
+										</a>
+										<p class="text-center">370,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/i12.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai i10 1.2 MT base bản thiếu</p>
+										</a>
+										<p class="text-center">330,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+							</div>
+							<div class="card-deck mt-5 bg-light" data-aos="fade-top" data-aos-delay="100">
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/21.jpg" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Accent 1.4 AT bản tiêu chuẩn</p>
+										</a>
+										<p class="text-center">520,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5 " type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>	
+								
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/22.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Accent 1.4 MT base bản tiêu chuẩn</p>
+										</a>
+										<p class="text-center">426,100,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/23.jpg" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Accent bản đặc biệt</p>
+										</a>
+										<p class="text-center">565,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+							</div>
+							<div class="card-deck mt-5" data-aos="fade-top" data-aos-delay="100">
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/31.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Kona 1.6 AT turbo</p>
+										</a>
+										<p class="text-center">750,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5 " type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>	
+								
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/32.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Kona 2.0 AT đặc biệt</p>
+										</a>
+										<p class="text-center">699,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/33.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai i10 1.2 MT base bản thiếu</p>
+										</a>
+										<p class="text-center">636,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+							</div>
+							<div class="card-deck mt-5 bg-light" data-aos="fade-top" data-aos-delay="100">
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/41.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Elantra 1.6 AT</p>
+										</a>
+										<p class="text-center">655,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5 " type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>	
+								
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/42.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Elantra 1.6 MT</p>
+										</a>
+										<p class="text-center">580,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-4">
+									<div class ="crop-img1  hovergallery">
+										<img src="images/43.png" class="card-img-top" alt="...">
+									</div>
+									<div class="card-body mb-2">
+										<a href="#">
+											<p class="text-center mb-2">Hyundai Elantra 2.0 AT</p>
+										</a>
+										<p class="text-center">699,000,000 đồng</p>
+									</div>
+									<div class="card-footer row">
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 mr-auto col-5" type="button">Chi Tiết</button>
+										<button class="btn btn-outline-success btn-sp my-2 my-sm-0 col-6" type="button">Mua</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="LH mt-5">
+							<h2 class="bg-light"><i class="fas fa-address-book"></i> Liên hệ</h2>
+							<form class="mt-3">
+								<div class="form-group">
+									<label for="inputAddress">Tên</label>
+									<input type="text" class="form-control" id="inputAddress">
+								</div>
+								<div class="form-group">
+									<label for="inputAddress">Email</label>
+									<input type="text" class="form-control" id="inputAddress">
+								</div>
+								<div class="form-group">
+									<label for="inputAddress">Địa chỉ</label>
+									<input type="text" class="form-control" id="inputAddress" placeholder="Xã">
+								</div>
+								<div class="form-group">
+									<label for="inputAddress2">Địa chỉ 2</label>
+									<input type="text" class="form-control" id="inputAddress2" placeholder="Cụm, huyện">
+								</div>
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<label for="inputCity">Thành phố</label>
+										<input type="text" class="form-control" id="inputCity">
+									</div>
+									<div class="form-group col-md-6">
+										<label for="inputState">Quận</label>
+										<select id="inputState" class="form-control">
+											<option selected>chosse....</option>
+											<option>Thanh Xuân</option>
+											<option>Ba Đình</option>
+											<option>Đống Đa</option>
+											<option>Cầu Giấy</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputAddress2">Your message</label>
+									<textarea class="col-md-12" rows="10"></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary">Gửi</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="DSSP">
+							<h2 class="">Danh sách</h2>
+							<a class="dropdown-item" href="#">HYUNDAI GRAND I10</a>
+							<a class="dropdown-item" href="#">HYUNDAI ACCENT</a>
+							<a class="dropdown-item" href="#">HYUNDAI KONA</a>
+							<a class="dropdown-item" href="#">HYUNDAI ELANTRA</a>
+							<a class="dropdown-item" href="#">HYUNDAI TUCSON</a>
+							<a class="dropdown-item" href="#">HYUNDAI SANTAFE</a>
+							<a class="dropdown-item" href="#">HYUNDAI STAREX</a>
+							<a class="dropdown-item" href="#">HYUNDAI PORTER(H150)</a>
+						</div>
+						<div class="HTTT">
+							<h2 id="ht">Hỗ trợ trực tuyến</h2>
+							<div class ="crop-img1" id="contain">
+								<img src="images/bg-support.png" class="card-img-top" alt="...">
+							</div>
+							<div class="card-body mb-2">
+								<p class="text-center">Đỗ Đình Nam: 0971 126 791</p>
+								<p class="text-center">Email: dodinhnam2000@gmail</p>
+							</div>
+						</div>
+						<div class="New mt-1">
+							<h2 class="">Tin tức</h2>
+							<div class="mt-5">
+								<div class="card bg-dark text-white">
+									<img src="images/tt1.jpg" class="card-img" alt="...">
+									<div class="card-img-overlay mybg1">
+										<a href="#"><h5 class="text-white">HYUNDAI ACCENT TIẾP TỤC KHUYNH ĐẢO PHÂN KHÚC SEDAN HẠNG B</h5></a>
+										<p class="card-text">Theo đó, doanh số bán xe của Hyundai Thành Công trong tháng 2/2019 đạt 3.924 chiếc.</p>
+									</div>
+								</div>
+								<div class="card bg-dark text-white mt-5">
+									<img src="images/tt2.jpg" class="card-img" alt="...">
+									<div class="card-img-overlay mybg1">
+										<a href="#"><h5 class="text-white">NGƯỜI TRẺ THÍCH FORD ECOSPORT 2019 HAY HYUNDAI KONA 2019?</h5></a>
+										<p class="card-text">Hyundai Kona và Ford EcoSport là hai mẫu Urban SUV rất được ưa chuộng tại Việt Nam.</p>
+										
+									</div>
+								</div>
+								<div class="card bg-dark text-white mt-5">
+									<img src="images/tt3.jpg" class="card-img" alt="...">
+									<div class="card-img-overlay mybg1">
+										<a href="#"><h5 class="text-white">ĐÁNH GIÁ HYUNDAI ACCENT 2019 CHẠY DỊCH VỤ: GIÁ RẺ, THIẾT KẾ TRẺ TRUNG</h5></a>
+										<p class="card-text">Hyundai Accent 2019 được đánh giá là một sự lựa chọn đáng cân nhắc.</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="like mt-5">
+							<h2>Xe đã xem</h2>
+							<ul class="list-unstyled mt-5">
+								<li class="media mt-3" >
+									<div class="mycrop2 mr-3">
+										<a href="#"><img src="images/i9.png" alt="..."></a>
+									</div>
+									<div class="media-body text-justify text-white">
+										<a href="#"><h6 class="mt-0 mb-3">Hyundai grand i10 1.2 AT</h6></a>
+									</div>	
+								</li>
+								<li class="media mt-3" >
+									<div class="mycrop2 mr-3">
+										<a href="#"><img src="images/i10.png" alt="..."></a>
+									</div>
+									<div class="media-body text-justify text-white">
+										<a href="#"><h6 class="mt-0 mb-3">hyundai grand i10 1.2 MT</h6></a>
+									</div>
+								</li>
+								<li class="media mt-3" >
+									<div class="mycrop2 mr-3">
+										<a href="#"><img src="images/i12.png" alt="..."></a>
+									</div>
+									<div class="media-body text-justify text-white">
+										<a href="#"><h6 class="mt-0 mb-3">Hyundai i10 1.2 MT base bản thiếu</h6></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="TKTC">
+							<h2>Lượng truy cập</h2>
+							<div class="mt-3">
+								<p>Online User: 1</p>
+								<p>Today's Visits: 15</p>
+								<p>Total Visits: 120.700</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<!--end FOCUS-NEWS-->
+
+		<!----- FOOTER ----->
+		<div class="footer mt-5 text-black bg-light">
+			<div class="footer-top">
+				<div class="container-md">
+					<div class="row pt-3">
+						<div class="col-md-3 footer-links ml-auto">
+							<h4>Danh sách sản phẩm</h4>
+							<ul>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI GRAND I10</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI ACCENT</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI KONA</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI ELANTRA</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI TUCSON</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI SANTAFE</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI STAREX</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">HYUNDAI PORTER(H150)</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-3 footer-links mr-auto">
+							<h4>Danh sách menu</h4>
+							<ul>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">Trang chủ</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">Giới thiệu</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">Tin tức</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">Bảng giá xe</a></li>
+							  <li><i class="bx bx-chevron-right"></i> <a href="#">Liên hệ</a></li>
+							</ul>
+						</div>
+						<div class="comment  col-md-6">
+							<div class="row">
+								<h4>HYUNDAI PHẠM VĂN ĐỒNG</h4>
+								<h4 class="ml-auto"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></h4>
+							</div>
+							<div class="cmt mt-3">
+								<div class="row mt-2">
+									<strong class="col-md-3">Địa chỉ:</strong>
+									<p class="col-md-9">138 Phạm Văn Đồng, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Hà Nội</p>
+								</div>
+								<div class="row mt-2">
+									<strong class="col-md-3">Số Điện thoại:</strong>
+									<p class="col-md-9">0971126791</p>
+								</div>
+								<div class="row mt-2">
+									<strong class="col-md-3">Email:</strong>
+									<a href="#"  class="col-md-9">dodinhnam2000@gmail.com</a>
+								</div>
+								<div class="row mt-2">
+									<strong class="col-md-3">Fanpage:</strong>
+									<a href="#" class="col-md-9">https://www.facebook.com/Hyundaiphamvandong3s138</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<p>© Hyundai pham van dong 2021</p>
+						<a href="#" class="ml-auto">tạo bởi Đỗ Đình Nam JP2006.</a>
+					</div>
+				</div>
+			</div>
+
+		
+		</div>
+		<!--end FOOTER-->
+		</div>
+		
+		<script src="js/jquery-3.5.1.slim.min.js" ></script>
+		<script src="js/popper.min.js" ></script>
+		<script src="js/bootstrap.min.js" ></script>
+	</body>
+</html>
